@@ -3,7 +3,7 @@
  */
 "use strict";
 
-angular.module("QY.config", [])
+angular.module("YZ.config", [])
     .constant("$ionicLoadingConfig", {
         "template": "请求中..."
     })

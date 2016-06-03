@@ -1,13 +1,13 @@
 /**
  * Created by xinzhang on 16/3/22.
  */
-var QY = {};
-QY.CONTROLLERS = angular.module('QY.controllers', ['QY.services']);
-QY.SERVICES = angular.module('QY.services', ['QY.backend', 'QY.config']);
-QY.BACKEND = angular.module('QY.backend', []);
+var YZ = {};
+YZ.CONTROLLERS = angular.module('YZ.controllers', ['YZ.services']);
+YZ.SERVICES = angular.module('YZ.services', ['YZ.backend', 'YZ.config']);
+YZ.BACKEND = angular.module('YZ.backend', []);
 
 
-angular.module('QY', ['ui.router', 'QY.controllers', 'QY.config'])
+angular.module('YZ', ['ui.router', 'YZ.controllers', 'YZ.config'])
     .run(["$rootScope", '$state', function ($rootScope, $state) {
 
     }])
